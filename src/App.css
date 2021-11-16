@@ -1,1 +1,218 @@
 /* Other rules */
+body {
+    background-color:white;
+}
+
+.upperheader {
+    background-color:white;
+    height: 60px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    margin-top: 20px;
+}
+
+.bottomheader {
+    background-color: white;
+    height: 50px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+}
+
+.paymentcontainer {
+    width: 700px;
+    margin: 0 auto;
+    display: block;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.banner {
+    height: 700px;
+    width: 100%;
+    object-fit: none;
+    margin-top: 60px;
+}
+
+.header > div {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.sellbutton {
+    background-color: aquamarine;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.logbutton {
+    background-color: transparent;
+    border: 1px solid aquamarine;
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+
+.logoutbutton {
+    border: none;
+    background-color: rgba(0, 26, 255, 0.605);
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.searchbar {
+    width: 600px;
+    height: 40px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.sellsquare {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+}
+
+.signupform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.publishform, .publishform section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.publishform section {
+    margin-top: 50px;
+}
+
+.submitbutton {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.addbutton {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.signupletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupcondition {
+    width: 300px;
+    font-size: 12px;
+    color: rgb(188, 188, 188);
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px;
+    border-width: 3px;
+
+}
+
+.signupbutton {
+    width: 500px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 0 4px 0;
+    text-align: left;
+    text-decoration: none;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+
+.publishbutton {
+    width: 1024px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 0 0 4px 0;
+    text-align: left;
+    text-decoration: none;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    color: rgb(188, 188, 188);
+}
+
+.previewpicture {
+    size: 100px;
+    object-fit: contain;
+}
+
+.imageribbon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -1;
+}
+.paymentform {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paymentbutton {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.subclasses{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid lightgray;
+    margin: 15px 0;
+}
+
+.cardelement{
+    display: block;
+    margin-top: 50px;
+    box-shadow: 1px 1px 5px black;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
